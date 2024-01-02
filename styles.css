@@ -1,0 +1,17 @@
+/* Reset the margin and padding for the body and html */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Ensure that they take up the full width */
+}
+
+/* If you have a container inside body, make sure it also takes up the full width */
+.container {
+    width: 100%;
+    box-sizing: border-box; /* This makes sure that padding and borders are included in the total width and height */
+}
+
+/* If you're using any other elements that might constrain the width, make sure to set their widths to 100% also. For example: */
+header, footer, section {
+    width: 100%;
+}
